@@ -1,0 +1,73 @@
+.header-pedidos .botoes .btn-autoler-pagina.btn {
+    margin-right: 20px;
+    margin-left: 20px;
+    white-space: nowrap;
+    height: 30px;
+    background: none;
+    color: #7b1fa2;
+    border: 1px solid #7b1fa2;
+    border-radius: 92px;
+    padding: 6px 16px;
+    display: flex; 
+    align-items: center;
+    font-weight: 400;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.header-pedidos .botoes .btn-autoler-pagina.btn i {
+    margin-right: 10px;
+}
+
+.btn-autoler-pagina .vue-js-switch {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    user-select: none;
+    font-size: 10px;
+    cursor: pointer;
+    margin-left: 8px;
+    margin-bottom: initial;
+}
+
+.btn-autoler-pagina .vue-js-switch .v-switch-core {
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    outline: 0;
+    margin: 0;
+    transition: border-color .3s,background-color .3s;
+    user-select: none;
+    width: 50px;
+    height: 22px;
+    background-color: rgb(134, 136, 142);
+    border-radius: 11px;
+}
+
+.btn-autoler-pagina .vue-js-switch.toggled .v-switch-core {
+    background-color: rgb(55, 199, 74);
+}
+
+.btn-autoler-pagina .vue-js-switch .v-switch-core .v-switch-button {
+    display: block;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    border-radius: 100%;
+    background-color: #fff;
+    z-index: 2;
+    width: 16px;
+    height: 16px;
+    transition: transform 300ms ease 0s;
+    transform: translate3d(3px, 3px, 0px);
+}
+
+.btn-autoler-pagina .vue-js-switch.toggled .v-switch-core .v-switch-button {
+    transform: translate3d(31px, 3px, 0px);
+}
+
+.header-pedidos .botoes .btn-autoler-pagina.btn:hover, .header-pedidos .botoes .btn-autoler-pagina.btn:focus {
+    background: #7b1fa2;
+    color: #fff;
+    text-decoration: none;
