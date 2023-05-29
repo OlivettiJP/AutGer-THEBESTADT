@@ -5,7 +5,7 @@
 // @updateURL    
 // @downloadURL  
 // @match        *://geraldo-restaurantes.aiqfome.com/*
-// @resource     style 
+// @resource     style https://raw.githubusercontent.com/OlivettiJP/AutGer-THEBESTADT/main/AutGer-THEBESTADT.style.css
 // @icon         https://www.google.com/s2/favicons?domain=aiqfome.com
 // @grant        GM_addStyle
 // @grant        GM_getResourceText
